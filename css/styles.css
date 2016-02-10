@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+
+#youngLivingOils {
+  background-image: url("../img/background.jpg");
+}
+
+body {
+  font-family: 'raleway', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  /*box-shadow:0 1px 5px gray,
+		inset 0 10px 20px gray;*/
+  border: 2px solid lightgrey;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  max-width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+tbody tr td {
+  width: 150px;
+}
+
+p {
+  text-align: center;
+  font-size: 12px;
+}
+
+td p:hover {
+  font-size: 14px;
+}
+
+tbody tr th {
+  text-shadow: 0 2px 2px white;
+}
+
+.redBrown {
+  background-color: #884240;
+  height: 30px;
+  margin: 5px;
+}
+
+.purple {
+  background-color: #7d5287;
+  height: 30px;
+  margin: 5px;
+}
+.teal {
+  background-color: #2ba87e;
+  height: 30px;
+  margin: 5px;
+}
+.red {
+  background-color: #da2433;
+  height: 30px;
+  margin: 5px;
+}
+.orange {
+  background-color: #ff8b5f;
+  height: 30px;
+  margin: 5px;
+}
+.deepPink {
+  background-color: #de3759;
+  height: 30px;
+  margin: 5px;
+}
+.green {
+  background-color: #68a854;
+  height: 30px;
+  margin: 5px;
+}
+.darkRed {
+  background-color: #9e333b;
+  height: 30px;
+  margin: 5px;
+}
